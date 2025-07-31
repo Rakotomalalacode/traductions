@@ -73,14 +73,6 @@ export default function AIWritingAssistant() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 p-4">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <div className="text-center my-8">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Wand2 className="h-8 w-8 text-blue-600 dark:text-blue-400" />
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Assistant IA d'Écriture</h1>
-            <Sparkles className="h-6 w-6 text-purple-500 animate-pulse" />
-          </div>
-        </div>
 
         <Card className="shadow-xl">
           <CardHeader>
